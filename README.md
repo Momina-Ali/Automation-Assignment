@@ -95,5 +95,3 @@ The API tests are located in the `tests/api` directory and validate key endpoint
   * **Test Case 1: GET List Users**: Verifies that the endpoint returns a list of users with a successful 200 status code.
   * **Test Case 2: GET Single User**: Verifies that the endpoint can retrieve a single user's data by ID.
   * **Test Case 3: POST Create User**: Verifies that a new user can be created with a 201 status code and that the response body contains the new user's information.
-  * **Test Case 4: DELETE User**: Verifies that a user can be successfully deleted, which returns a 204 status code.
-  * **Test Case 5: Negative - User Not Found**: Verifies that an attempt to get a non-existent user returns a 404 status code.
